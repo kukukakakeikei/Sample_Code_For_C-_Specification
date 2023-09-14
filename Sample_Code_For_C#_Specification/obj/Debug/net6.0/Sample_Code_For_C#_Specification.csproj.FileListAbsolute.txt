@@ -1,0 +1,15 @@
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\bin\Debug\net6.0\Sample_Code_For_C#_Specification.exe
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\bin\Debug\net6.0\Sample_Code_For_C#_Specification.deps.json
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\bin\Debug\net6.0\Sample_Code_For_C#_Specification.runtimeconfig.json
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\bin\Debug\net6.0\Sample_Code_For_C#_Specification.dll
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\bin\Debug\net6.0\Sample_Code_For_C#_Specification.pdb
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.csproj.AssemblyReference.cache
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.AssemblyInfoInputs.cache
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.AssemblyInfo.cs
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.csproj.CoreCompileInputs.cache
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.dll
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\refint\Sample_Code_For_C#_Specification.dll
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.pdb
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\Sample_Code_For_C#_Specification.genruntimeconfig.cache
+D:\CSharp\Sample_Code_For_C#_Specification\Sample_Code_For_C#_Specification\obj\Debug\net6.0\ref\Sample_Code_For_C#_Specification.dll
