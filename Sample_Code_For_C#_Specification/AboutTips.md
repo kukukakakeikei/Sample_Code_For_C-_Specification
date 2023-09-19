@@ -32,12 +32,12 @@ myForm1.ShowDialog();
 ```
 这行代码 myForm2 = myForm1; 实际上是将一个对象引用赋值给另一个对象引用。在C#中，对象引用变量存储的是对象的内存地址，而不是对象本身的副本。因此，当你执行这行代码时，它会使myForm2引用和myForm1引用指向相同的对象，而不是创建一个新的对象。这意味着它们都指向同一个窗体对象。
 ## 类的三大成员
-属性（Property）  
+*属性（Property）*  
 存储数据，组合起来表示类或者对象当前的状态  
-方法（Method）  
+*方法（Method）*  
 表示类或者对象能做什么，构成逻辑  
 **数据加算法**  
-事件（Event）  
+*事件（Event）*  
 类或者对象通知其它类或对象的机制，为C#所特有  
 善用事件机制非常重要  
 ## 静态成员与实例成员
@@ -65,6 +65,18 @@ Srack overflow
 win+r → perfmon 查看程序运行内存占用  
 ## C#语言的数据类型  
 类（class）、结构体(Structures)、枚举(Enumerations)、接口(interface)、委托(Delegatrs)  
+结构、接口、委托可以是泛型
+*泛型就是采用类型参数的类类型*
+~~~
+public class Pair<TFirst,TSecond>
+{
+	public TFirst First;
+	public TSecond Second;
+}
+Pair<int,string> paie = new Pair<int,string>{First=1,Second='two'};
+int i = pair.First;
+string s = pair.Second;
+~~~
 类型派生谱系  
 Object是基类型  
 引用类型：类、接口、委托  
@@ -94,5 +106,5 @@ const
 损失性能
 装箱 指的是将栈上的值类型的值封装obj类型的实例放在堆上  
 拆箱 指的是将堆上obj类型的实例的值按照要求拆成目标类型存储到栈上去  
-
-
+**设计模式**  
+依赖注入  
