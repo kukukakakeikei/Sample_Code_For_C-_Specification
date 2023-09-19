@@ -1,7 +1,8 @@
 ﻿using System;
 class Hello
 {
-    static void Main() {
-        Console.WriteLine("Hello World");
-    }
+    //static void main()
+    //{
+    //    console.writeline("hello world");
+    //}
 }
