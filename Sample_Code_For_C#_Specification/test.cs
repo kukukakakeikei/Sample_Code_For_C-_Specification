@@ -2,28 +2,39 @@
 using System.Reflection.Metadata.Ecma335;
 using System.Security;
 using Acme.Collections;
+using AbstractMethodSampleCode;
+using System.Collections;
 
 class Test
 {
     static void Main()
     {
-        Stack s = new Stack();
-        s.Push(1);
-        s.Push(10);
-        s.Push(100);
-        Console.WriteLine(s.Pop());
-        Console.WriteLine(s.Pop());
-        Console.WriteLine(s.Pop());
+        //Stack s = new Stack();
+        //s.Push(1);
+        //s.Push(10);
+        //s.Push(100);
+        //Console.WriteLine(s.Pop());
+        //Console.WriteLine(s.Pop());
+        //Console.WriteLine(s.Pop());
 
-        BoxingAndUnboxing();
-        LocalVariable();
+        //BoxingAndUnboxing();
+        //LocalVariable();
 
-        Entity.SetNextSerialNo(1000);
-        Entity e1 = new Entity();
-        Entity e2 = new Entity();
-        Console.WriteLine(e1.getSerialNo());
-        Console.WriteLine(e2.getSerialNo());
-        Console.WriteLine(Entity.GetNextSerialNo());
+        //Entity.SetNextSerialNo(1000);
+        //Entity e1 = new Entity();
+        //Entity e2 = new Entity();
+        //Console.WriteLine(e1.getSerialNo());
+        //Console.WriteLine(e2.getSerialNo());
+        //Console.WriteLine(Entity.GetNextSerialNo());
+
+        ///抽象类验证
+        Expression e = new operation(
+            new variableReference("x"),
+            '+',
+            new Constant(3));//方法实例化
+        Hashtable vars = new Hashtable();
+        vars["x"] = 3;
+        Console.WriteLine(e.Evaluate(vars));
     }
     /// <summary>
     /// 装箱与拆箱
@@ -178,9 +189,9 @@ class Test
     {
         int i = 0;
         goto check;
-    loop:
+        loop:
         Console.WriteLine(args[i++]);
-    check:
+        check:
         if (i < args.Length) goto loop;
 
     }
