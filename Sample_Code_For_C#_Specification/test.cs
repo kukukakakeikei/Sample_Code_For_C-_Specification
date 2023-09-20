@@ -4,6 +4,8 @@ using System.Security;
 using Acme.Collections;
 using AbstractMethodSampleCode;
 using System.Collections;
+using InterfaceSampleCode;
+using DelegateTypeSampleCode;
 
 class Test
 {
@@ -35,6 +37,24 @@ class Test
         Hashtable vars = new Hashtable();
         vars["x"] = 3;
         Console.WriteLine(e.Evaluate(vars));
+
+        //接口的隐式转换
+        EditBox editBox = new EditBox();
+        IControl control = editBox;
+        IDataBound dataBound = editBox;
+
+        //动态类型强制转换
+        object obj = new EditBox();
+        IControl control1 = (IControl)obj;
+        IDataBound control2 = (IDataBound)obj;
+        //委托
+        DelegateTest delegateTest = new DelegateTest();
+        double[] a = { 0.1, 0.5, 1.0 };
+        double[] squares = DelegateTest.Apply(a, DelegateTest.Square);
+        double[] sines = DelegateTest.Apply(a, Math.Sin);
+        Multiplier m = new Multiplier(2.0);
+        double[] doubles = DelegateTest.Apply(a, m.Multiply);
+
     }
     /// <summary>
     /// 装箱与拆箱
@@ -189,9 +209,9 @@ class Test
     {
         int i = 0;
         goto check;
-        loop:
+    loop:
         Console.WriteLine(args[i++]);
-        check:
+    check:
         if (i < args.Length) goto loop;
 
     }
